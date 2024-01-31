@@ -30,7 +30,7 @@ thiserror = "1.0"
 tracing = "0.1.37"
 semver = "1.0"
 
-foundry-compilers = { git = "https://github.com/klkvr/compilers.git", branch = "klkvr/flatten-fix", default-features = false }
+foundry-compilers = { git = "https://github.com/klkvr/compilers.git", branch = "klkvr/flatten-fix", optional = true }
 
 [dev-dependencies]
 tempfile = "3.8"
